@@ -11,7 +11,7 @@ body {
     flex-direction: column;
 }
 .container {
-    border: 3px solid black;
+    border: 4px solid black;
     width: 500px;
     padding: 50px;
     border-radius: 30px;
@@ -51,15 +51,18 @@ label {
     display: flex;
 }
 
-#result1 {
-    font-family: 'Sansita Swashed', cursive;
-    font-size: 25px;
-    color: white;
-    padding-right: 20px;
+#result {
+    color: #FFD662FF ;
 }
-.result {
-   
-    width: 250px;
-    margin: auto;
 
+.results {
+    width: 300px;
+    margin: auto;
+    border: 5px dotted #ffffff;
+    color:  #ffffff;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 20px;
+    
 }

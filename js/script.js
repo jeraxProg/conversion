@@ -3,7 +3,9 @@ function yen() {
     const y = 0.40
     const convertyen =  x / y;
     let result = convertyen.toFixed(2);
-    document.getElementById('result1').textContent = "YEN" + ": "  + result;
+    document.getElementById('result').textContent = result;
+    document.getElementById('symbol').textContent = "¥";
+    document.getElementById('displayCurrency').textContent = "Yen";
 }
 
 function usd() {
@@ -11,7 +13,9 @@ function usd() {
     const y = 58.18
     const convertdollar = x / y;
     let result = convertdollar.toFixed(3);
-    document.getElementById('result1').textContent = "USD" + ": " + result;
+    document.getElementById('result').textContent =result;
+    document.getElementById('symbol').textContent = "$";
+    document.getElementById('displayCurrency').textContent = "United States Dollar";
 }
 
 
@@ -20,5 +24,7 @@ function aud() {
     const y = 37.61
     const convertaud =  x / y;
     let result = convertaud.toFixed(3)
-    document.getElementById('result1').textContent = "AUD" + ": " + result;
+    document.getElementById('result').textContent = result;
+    document.getElementById('symbol').textContent = "AU$";
+    document.getElementById('displayCurrency').textContent = "Australian Dollar";
 }
