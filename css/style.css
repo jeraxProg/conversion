@@ -1,0 +1,65 @@
+body {
+	text-align: center;
+    font-family: sans-serif;
+    background-image: url(../images/istockphoto-1269057186-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container {
+    border: 3px solid black;
+    width: 500px;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+h1{
+    color: #FFD662FF;
+    font-size: 3rem;
+    
+}
+
+
+input {
+    font-family: 'Sansita Swashed', cursive;
+	width: 250px;
+	height: 30px;
+	font-size: 20px;
+    margin: 15px auto;
+    outline: 0;
+    text-align: center;
+}
+button {
+	width: 500px;
+	height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #00539CFF;
+    font-family: 'Sansita Swashed', cursive;
+  
+}
+label {
+    font-family: 'Sansita Swashed', cursive;
+    color: azure;
+}
+
+.btn-convert {
+    display: flex;
+}
+
+#result1 {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 25px;
+    color: white;
+    padding-right: 20px;
+}
+.result {
+   
+    width: 250px;
+    margin: auto;
+
+}
